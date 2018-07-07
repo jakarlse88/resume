@@ -2,6 +2,8 @@
             Set-up
 *******************************/
 
+/* tslint:disable */
+
 var
   gulp         = require('gulp-help')(require('gulp')),
 
