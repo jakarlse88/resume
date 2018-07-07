@@ -1,12 +1,5 @@
-.myHeader {
-    font-size: 3em !important;
-    text-transform: uppercase !important;
-}
-
-.mySubheader {
-    font-size: .5em !important;
-    font-weight: 200 !important;
-    text-transform: none !important;
+.site-header {
+    margin: 1em 0;
 }
 
 .link {
@@ -15,5 +8,5 @@
 
 .activeLink {
     color: black !important; /* kludge */
-    border-bottom: 4px solid black;
+    border-bottom: 2px solid black;
 }

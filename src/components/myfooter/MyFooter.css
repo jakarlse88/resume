@@ -1,0 +1,12 @@
+.site-footer {
+    height: 5vh;
+    color: grey;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-heart {
+    color: red;
+}
