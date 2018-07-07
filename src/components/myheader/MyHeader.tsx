@@ -12,7 +12,7 @@ const MyHeader = () => {
                         <Header as="h1" className="myHeader">
                             Jon Karlsen
                             <Header.Subheader className="mySubheader">
-                                Front-End Web Dev
+                                {`// Front-end web developer`}
                             </Header.Subheader>
                         </Header>
                     </Link>

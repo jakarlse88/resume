@@ -5,6 +5,8 @@
 
 .mySubheader {
     font-size: .5em !important;
+    font-weight: 200 !important;
+    text-transform: none !important;
 }
 
 .link {
