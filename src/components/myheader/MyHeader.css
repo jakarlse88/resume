@@ -1,0 +1,17 @@
+.myHeader {
+    font-size: 3em !important;
+    text-transform: uppercase !important;
+}
+
+.mySubheader {
+    font-size: .5em !important;
+}
+
+.link {
+    font-size: 1.6em;
+}
+
+.activeLink {
+    color: black !important; /* kludge */
+    border-bottom: 4px solid black;
+}

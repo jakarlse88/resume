@@ -1,33 +1,33 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { Grid, Header, List } from 'semantic-ui-react';
+import './MyHeader.css';
 
 const MyHeader = () => {
     return (
-        <Grid centered={true} container={true}>
-            <Grid.Column width="4">
+        <Grid centered={true} >
+            <Grid.Column width="6" textAlign="left">
                 <Grid.Row>
                     <Link to="/">
-                        <Header as="h1">
+                        <Header as="h1" className="myHeader">
                             Jon Karlsen
-                            <Header.Subheader>
+                            <Header.Subheader className="mySubheader">
                                 Front-End Web Dev
                             </Header.Subheader>
                         </Header>
                     </Link>
                 </Grid.Row>
             </Grid.Column>
-            <Grid.Column width="12" textAlign="right" verticalAlign="middle">
+            <Grid.Column width="6" textAlign="right" verticalAlign="middle">
                 <List horizontal={true} link={true}>
                     <List.Item>
-                        <Link to="/about">About</Link>
+                        <NavLink to="/about" className="link" activeClassName="activeLink">About</NavLink>
                     </List.Item>
                     <List.Item>
-                        <Link to="/projects">Projects</Link>
+                        <NavLink to="/projects" className="link" activeClassName="activeLink">Projects</NavLink>
                     </List.Item>
                     <List.Item>
-                        <Link to="/contact">Contact</Link>
-                        
+                        <NavLink to="/contact" className="link" activeClassName="activeLink">Contact</NavLink>
                     </List.Item>
                 </List>
             </Grid.Column>
